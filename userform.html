@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Form</title>
+</head>
+<body>
+  <h1>User Form</h1>
+  
+  <form action="/userform/" method="get">
+    <label for="value1">Value 1:</label>
+    <input type="text" name="num1" required><br><br>
+    
+    <label for="value2">Value 2:</label>
+    <input type="text" name="num2" required><br><br>
+    
+    <button type="submit">Save</button>
+    
+    Output:
+    <input type="text" value="{{ output }}" readonly>
+  </form>
+  
+</body>
+</html>
+
